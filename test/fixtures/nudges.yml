@@ -1,0 +1,6 @@
+erik_nudge:
+  id: 1
+  user_id: 1
+  message: Test message
+  created_at: <%= 5.minutes.ago.to_s(:db) %>
+  

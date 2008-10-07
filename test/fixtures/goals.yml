@@ -1,0 +1,23 @@
+erik_pushups:
+  id: 1
+  user_id: 1
+  variable: pushups
+  amount: 400
+  end_date: <%= 3.days.from_now.to_s(:db) %>
+  notes: You can do it!
+
+erik_miles:
+  id: 2
+  user_id: 1
+  variable: miles
+  amount: 5.5
+  end_date: <%= 2.days.ago.to_s(:db) %>
+  notes: Good job
+  
+erik_situps:
+  id: 3
+  user_id: 1
+  variable: situps
+  amount: 100
+  end_date: <%= 1.day.from_now.to_s(:db) %>
+  

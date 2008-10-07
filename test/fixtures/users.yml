@@ -1,0 +1,12 @@
+erik:
+  id: 1
+  screen_name: kastner
+  twitter_id: 1234
+  alert_address: test@test.com
+  nudge_frequency: <%= 1.hour %>
+  
+john:
+  id: 2
+  screen_name: yonnage
+  twitter_id: 4321
+  alert_address: nil
